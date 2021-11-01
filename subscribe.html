@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <title>Иван Каширин FlashNews subscribe</title>
+  <link rel="stylesheet" href="css/setting.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="page light-theme">
+
+
+    <header class="page-header">
+      <div class="container">
+        <a class="header-link" href="index.html">На главную</a>
+        <button class="theme-button" type="button">Изменить тему</button>
+        <button class="menu menu-open" type="button">Меню</button>
+        <nav class="main-menu">
+          <ul>
+            <li>
+              <a href="index.html">Колонка редактора</a>
+            </li>
+            <li>
+              <a href="#">Контакты</a>
+            </li>
+            <li>
+              <a href="subscribe.html">Подписка</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+
+    <main class="inner-main">
+      <div class="container">
+        <h1 class="inner-heading">Подпишитесь на нашу рассылку</h1>
+        <p class="subscription-message">Обещаем присылать вам новости не чаще одного раза в день, причём только самые интересные и важные.</p>
+
+        <form action="https://echo.htmlacademy.ru/courses" method="post" class="subscription">
+          <div class="subscription-inner">
+            <label class="subscription-label" for="subscription-email">email</label>
+            <input type="email" class="subscription-email" placeholder="keks@flashnews.ru" value="keks@flashnews.ru" required id="subscription-email">
+          </div>
+
+          <button class="button subscription-button" type="submit">Подписаться</button>
+        </form>
+
+        <section class="news-list list-tiles-view">
+          <h2 class="news-list-heading">Или почитайте ещё немного новостей</h2>
+          <article class="new-block">
+            <img src="img/new-graph.jpg" alt="Новая библиотека">
+            <div class="new-block-text">
+              <h3>Новая библиотека для создания графиков</h3>
+              <p>Теперь вы можете создать дашборд за считанные секунды.</p>
+              <time datetime="2019-10-16">16 октября 2019</time>
+            </div>
+          </article>
+          <article class="new-block">
+            <img src="img/new-robot.jpg" alt="Что там у роботов?">
+            <div class="new-block-text">
+              <h3>Что там у роботов?</h3>
+              <p>В робототехнике происходит много интересного, эта новость могла бы быть об этом, но нет.</p>
+              <time datetime="2019-10-15">15 октября 2019</time>
+            </div>
+          </article>
+        </section>
+      </div>
+    </main>
+
+
+    <footer class="page-footer">
+      <div class="container">
+        <p>© FlashNews!</p>
+        <a class="footer-logo">
+          <img src="img/white-logo.svg" alt="Логотип портала FlashNews!">
+        </a>
+      </div>
+
+    <div class="container ivan">
+        <a href="https://frontend200tb.github.io/flashnews/" title="Проект flashnews на GitHub">© 2021 Иван Каширин - Верстка учебного проекта flashnews</a>
+    </div>
+
+    <div class="container ivan">
+        <a href="mailto: frontend200tb@mail.ru" title="Написать Ивану Каширину">frontend200tb@mail.ru</a>
+        <a href="https://github.com/frontend200tb" title="Иван Каширин на GitHub">github</a>
+    </div>
+
+    <div class="container ivan">
+        <a href="https://frontend200tb.github.io/start/" title="Иван Каширин Frontend разработчик">Иван Каширин - Frontend разработчик</a>
+    </div>
+
+      <div class="container ivan">
+        Создано по курсу Знакомство с веб-разработкой Часть 2:Основы JavaScript от htmlacademy.ru
+      </div>
+    </footer>
+
+
+    <script src="js/theme.js"></script>
+
+</body>
+</html>
